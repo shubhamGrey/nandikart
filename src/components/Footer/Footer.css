@@ -1,0 +1,19 @@
+.footer-container {
+  height: auto;
+  width: 100%;
+  background-color: #222707;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+
+  .footer-content {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Open Sans";
+    padding-top: 8px;
+    padding-bottom: 8px;
+    justify-content: center;
+    display: flex;
+  }
+}

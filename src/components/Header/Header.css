@@ -1,0 +1,133 @@
+.header-container {
+  height: 72px;
+  font-size: 20px;
+  font-style: normal;
+  box-shadow: none !important;
+
+  .profile-avtr {
+    cursor: pointer;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    .logo-container {
+      display: flex;
+      .associate-logo {
+        font-weight: 700;
+        font-family: Poppins;
+        font-size: 20px;
+      }
+      .productivity-logo {
+        font-weight: 300;
+        font-family: Poppins;
+        font-size: 20px;
+      }
+    }
+    .super-script {
+      font-size: 8px;
+    }
+
+    .MuiToolbar-root {
+      padding-left: 16px;
+    }
+
+    .header-profile {
+      display: flex;
+      align-items: center;
+      margin-right: 16px;
+
+      .MuiChip-root {
+        background-color: #37474f;
+        margin-right: 16px;
+        color: #ffffff;
+        font-family: "Open Sans";
+        font-size: 13px;
+        font-weight: 400;
+        height: 24px;
+      }
+    }
+    .img {
+      height: 25px;
+      margin-bottom: -4px;
+    }
+  }
+}
+
+.logout-div {
+  width: 350px;
+  min-height: 126px;
+  .logout-btn {
+    background: #0d8390;
+    color: white;
+    border-radius: 4px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.46px;
+    text-transform: uppercase;
+    margin-top: 16px;
+    &:hover {
+      background-color: #0d8390;
+      color: white;
+    }
+  }
+  .lg-div {
+    padding: 22px;
+    .MuiTypography-root {
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      font-family: "Open Sans";
+      line-height: 20px;
+      letter-spacing: 0.14px;
+    }
+    .log-span {
+      font-size: 20px;
+      font-style: normal;
+      font-family: "Open Sans";
+      font-weight: 600;
+      line-height: 160%;
+      letter-spacing: 0.15px;
+    }
+  }
+  .lg-div-cnfrm {
+    padding: 24px;
+    .logout-message {
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      font-family: "Open Sans";
+    }
+    .MuiTypography-root {
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+      letter-spacing: 0.15px;
+    }
+    .cancel-btn {
+      border: 1px solid #0d8390;
+      border-radius: 4px;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 22px;
+      letter-spacing: 0.46px;
+      text-transform: uppercase;
+      margin-right: 12px;
+      margin-top: 16px;
+    }
+  }
+}
+
+#logout-popover {
+  .MuiPaper-root {
+    top: 72px !important;
+    left: unset !important;
+    right: 0;
+  }
+}
